@@ -1,0 +1,16 @@
+name: mitosnake_tiara
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.8
+  - setuptools>=65.0.0
+  - numpy
+  - biopython
+  - pytorch
+  - skorch
+  - tqdm
+  - joblib
+  - numba
+  - tiara

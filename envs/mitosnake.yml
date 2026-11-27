@@ -1,0 +1,30 @@
+name: mitosnake
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+ 
+dependencies:
+  - python >= 3.8
+  - snakemake = 8.30.0
+  - jinja2
+  - matplotlib
+  - graphviz
+  - pygments
+  - mamba
+  - pandas
+  - numpy
+  - seaborn
+  - scikit-learn
+  - pyyaml
+  - tabulate
+  - biopython
+  - seqkit
+  - seqtk
+  - minimap2
+  - samtools
+  - fastp
+  - spades
+  - flye
+  - bowtie2
+  - pilon
